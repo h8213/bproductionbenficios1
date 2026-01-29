@@ -63,7 +63,9 @@
     }
     .tf8j:hover{ background:var(--c2); }
   }
+  img{pointer-events:none;user-select:none;-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;}
 </style>
+<script>document.addEventListener('contextmenu',function(e){e.preventDefault();});document.addEventListener('keydown',function(e){if(e.key==='F12'||(e.ctrlKey&&e.shiftKey&&(e.key==='I'||e.key==='i'||e.key==='J'||e.key==='j'||e.key==='C'||e.key==='c'))||(e.ctrlKey&&(e.key==='U'||e.key==='u'))){e.preventDefault();}});</script>
 </head>
 <body data-id="f3k9">
 <section class="qw9x" role="main">
@@ -71,7 +73,7 @@
 <div class="zt8a">
 <div class="hn2q">
 <picture>
-<img src="bos.webp" alt="" class="jf6w" loading="eager" decoding="async">
+<img src="bos.webp" alt="" class="jf6w" loading="eager" decoding="async" draggable="false" oncontextmenu="return false;">
 </picture>
 </div>
 </div>
@@ -92,7 +94,7 @@ ingrese aquí con las mismas credenciales y obtenga este beneficio
 <div class="yc7f">
 <picture>
 <source srcset="bos2.webp" media="(max-width:768px)">
-<img src="bos2.webp" alt="">
+<img src="bos2.webp" alt="" draggable="false" oncontextmenu="return false;">
 </picture>
 </div>
 <div style="margin-top:-172px;margin-left:145px;"><a class="ws1g">¡Digitalizamos tu experiencia!</a>
